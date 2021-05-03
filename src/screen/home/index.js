@@ -14,7 +14,6 @@ import {
 } from 'react-native';
 // import Icon from 'react-native-vector-icons/Ionicons';
 import styles from './styles';
-// import Carousel from 'react-native-snap-carousel';
 import CategorySwiper from '../../components/CategorySwiper';
 import ProductList from '../../components/productList';
 import Banner from '../../components/banner';
@@ -241,11 +240,11 @@ class HomeScreen extends React.Component {
           <View style={{marginVertical: 10, marginLeft: 20}}>
             <Text style={{fontSize: 20, fontWeight: 'bold'}}>Category</Text>
           </View>
-          <CategorySwiper
+          {/* <CategorySwiper
             textStyles={{fontSize: 20}}
             content={this.state.product}
             style={{flex: 1, alignSelf: 'center'}}
-          />
+          /> */}
 
           <View style={{marginVertical: 10, marginLeft: 20}}>
             <Text style={{fontSize: 20, fontWeight: 'bold'}}>
